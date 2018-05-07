@@ -1,0 +1,6 @@
+#content #brand {
+  padding: 70px 0 70px;
+}
+#content #brand img:hover {
+  filter: brightness(0);
+}

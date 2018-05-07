@@ -1,0 +1,107 @@
+@primary-color: #e5aa34;
+@secondary-color: #9d9d9d;
+@background-color: #f1f1f1;
+@font: "PT Serif", serif;
+@import "women.less";
+#content {
+  #blog {
+    padding: 95px 0 90px;
+    background: @background-color;
+    .info {
+        #content #fashion-women .info;
+    }
+    .content {
+      .item- {
+        &1{
+            img{
+                width: 100%;
+                max-height: 226px;
+            }
+            position: relative;
+            .avatar{
+                width: 50px;
+                height: 50px;
+                overflow: hidden;
+                border-radius: 50%;
+                position: absolute;
+                top: 42%;
+                left: 5%;
+                img{
+                    width: auto;
+                    height: 100%;
+                    margin-left: -35px;
+                }
+            }
+            .title{
+                font-weight: 700;
+                font-size: 22px;
+                padding-top: 45px;
+                a {
+                  color: black;
+                }
+            }
+            .datetime{
+                font: @font;
+                font-style: italic;
+                font-size: 13px;
+                color: #999999;
+                padding-top: 20px;
+            }
+            .details{
+                color: #666666;
+                font-size: 15px;
+                margin-top: 30px;
+            }
+            .title, .datetime, .details{
+                position: relative;
+                left: 27px;
+            }
+        }
+        &2, &3{
+          img{
+            width: 100%;
+            max-height: 226px;
+        }
+        position: relative;
+        .avatar{
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 50%;
+            position: absolute;
+            top: 42%;
+            left: 5%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .title{
+            font-weight: 700;
+            font-size: 22px;
+            padding-top: 45px;
+            a {
+              color: black;
+            }
+        }
+        .datetime{
+            font: @font;
+            font-style: italic;
+            font-size: 13px;
+            color: #999999;
+            padding-top: 20px;
+        }
+        .details{
+            color: #666666;
+            font-size: 15px;
+            padding-top: 30px;
+        }
+        .title, .datetime, .details{
+            position: relative;
+            left: 27px;
+        }
+        }
+      }
+    }
+  }
+}
