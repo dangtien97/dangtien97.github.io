@@ -1,5 +1,8 @@
 {
   "name": "home-page-design",
+  "quokka": {
+    "babel": true
+  },
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -9,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
     "gulp": "^4.0.0",
     "gulp-bootlint": "^0.9.0",
     "gulp-changed": "^3.2.0",
