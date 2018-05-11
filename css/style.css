@@ -11,6 +11,16 @@ body .number {
   color: #e5aa34;
   font-size: 38px;
 }
+@media (max-width: 1199px) {
+  body .number {
+    font-size: 34px;
+  }
+}
+@media (max-width: 991px) {
+  body .number {
+    font-size: 30px;
+  }
+}
 body a:hover {
   text-decoration: none;
   color: #e5aa34 !important;
@@ -76,25 +86,25 @@ body a:hover {
   color: black;
 }
 #header #bottom .expand-search {
-  width: 150px;
+  width: 120px;
   padding: 0px !important;
   position: relative;
 }
 #header #bottom .expand-search input {
   width: 50%;
   border: none;
-  border-right: 1px solid black;
+  border-right: 1px solid #0000001a;
   box-shadow: none;
   border-radius: 0px;
   padding: 0px !important;
   position: absolute;
-  right: 35%;
+  right: 55%;
 }
 #header #bottom .expand-search input:focus {
   outline: none;
-  width: 100%;
+  width: 60%;
   border: 1px solid black;
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 #slideshow .carousel-indicators li {
   border-radius: 0px;
@@ -113,6 +123,32 @@ body a:hover {
 #content #category {
   background-color: #f1f1f1;
 }
+#content #category .text .title-big {
+  font-size: 30px;
+}
+@media (max-width: 1199px) {
+  #content #category .text .title-big {
+    font-size: 28px;
+  }
+}
+@media (max-width: 991px) {
+  #content #category .text .title-big {
+    font-size: 24px;
+  }
+}
+#content #category .text .title-small {
+  font-size: 22px;
+}
+@media (max-width: 1199px) {
+  #content #category .text .title-small {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  #content #category .text .title-small {
+    font-size: 17px;
+  }
+}
 #content #category .row {
   margin: 0px !important;
 }
@@ -127,11 +163,15 @@ body a:hover {
   padding-right: 30px;
   line-height: 25px;
 }
-#content #category .left .text .title1-banner1 {
-  font-size: 22px;
+@media (max-width: 1199px) {
+  #content #category .left .text {
+    padding-bottom: 60px;
+  }
 }
-#content #category .left .text .title2-banner1 {
-  font-size: 30px;
+@media (max-width: 991px) {
+  #content #category .left .text {
+    padding-top: 50px;
+  }
 }
 #content #category .left .text .click-to-buy {
   padding-top: 20px;
@@ -162,20 +202,41 @@ body a:hover {
   margin-left: 32px;
   line-height: 27px;
 }
-#content #category .right .text-top .title2-banner3 {
+#content #category .right .text-top .title-small {
   color: #999999;
   padding-left: 35px;
-  font-size: 22px;
+}
+@media (max-width: 1199px) {
+  #content #category .right .text-top {
+    margin-top: 105px;
+  }
+}
+@media (max-width: 991px) {
+  #content #category .right .text-top {
+    margin-top: 65px;
+  }
 }
 #content #category .right .text-bottom {
-  margin-top: 80px;
   position: relative;
   left: 23px;
   bottom: 100px;
   line-height: 27px;
 }
+@media (max-width: 991px) {
+  #content #category .right .text-bottom {
+    bottom: 125px;
+  }
+}
+#content #category .right .text-bottom .title-small {
+  padding-left: 45px;
+}
 #content #category .right .text-bottom .click-to-buy {
   padding-top: 25px;
+}
+@media (max-width: 1199px) {
+  #content #category .right .text-bottom .click-to-buy {
+    padding-top: 10px;
+  }
 }
 #content #category .right .text-bottom .click-to-buy #before {
   float: left;
@@ -185,13 +246,15 @@ body a:hover {
   right: 175px;
   z-index: 1;
 }
-#content #category .right .text-bottom #before {
-  float: left;
-  border-bottom: 2px solid #e5aa34;
-  width: 180px;
-  position: absolute;
-  right: 133px;
-  z-index: 1;
+@media (max-width: 1199px) {
+  #content #category .right .text-bottom .click-to-buy #before {
+    right: 120px;
+  }
+}
+@media (max-width: 991px) {
+  #content #category .right .text-bottom .click-to-buy #before {
+    right: 60px;
+  }
 }
 #content #category .right img {
   margin-bottom: 85px;
@@ -207,16 +270,6 @@ body a:hover {
 #content #category .right .banner3 {
   position: relative;
   bottom: 55px;
-}
-#content #category .right .text .title1-banner3 {
-  font-size: 30px;
-}
-#content #category .right .text .title1-banner4 {
-  font-size: 30px;
-}
-#content #category .right .text .title2-banner4 {
-  font-size: 22px;
-  padding-left: 45px;
 }
 #content #new-product {
   margin-top: 65px;
